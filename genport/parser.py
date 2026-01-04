@@ -3,7 +3,7 @@
 import re
 from typing import Any
 
-from .backtest import BacktestResult
+from .models import BacktestResult
 
 
 class GenportResultParser:

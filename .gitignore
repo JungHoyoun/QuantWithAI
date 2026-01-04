@@ -22,7 +22,8 @@ wheels/
 
 # Virtual environments
 .env
-.venv
+.venv/
+.venv-kiwoom-32/
 env/
 venv/
 ENV/

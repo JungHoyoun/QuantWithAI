@@ -1,0 +1,7 @@
+# Kiwoom 32-bit Python dependencies
+PyQt5>=5.15.0
+pywin32>=306
+pyzmq>=25.0.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+pydantic>=2.5.0

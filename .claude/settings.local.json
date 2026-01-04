@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:Python311-64python.exe --version)",
+      "Bash(C:Python311-32python.exe:*)",
+      "Bash(dir:*)",
+      "Bash(uv run python:*)",
+      "Bash(..venv-kiwoom-32Scriptspython.exe --version)",
+      "Bash(uv sync)",
+      "Bash(./.venv-kiwoom-32/Scripts/python.exe:*)",
+      "Bash(./.venv-kiwoom-32/Scripts/pip.exe:*)",
+      "Bash(uv run:*)"
+    ]
+  }
+}
