@@ -20,49 +20,61 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-.venv/
+# Virtual environments
+.env
+.venv
+env/
 venv/
 ENV/
-env/
-
-# Environment Variables
-.env
-.env.local
-credentials.json
-*.key
-
-# Data & Logs
-data/
-logs/
-*.csv
-*.parquet
-*.feather
-*.h5
-*.hdf5
-
-# Jupyter Notebooks
-.ipynb_checkpoints
-*.ipynb
 
 # IDE
-.vscode/
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Rust
+backtesting-rs/target/
+**/*.rs.bk
+Cargo.lock
+
+# 데이터 파일
+data/*.csv
+data/*.parquet
+data/*.json
+data/**/*.csv
+
+# 로그
+logs/
+*.log
+
+# 민감 정보
+.env
+*.pem
+*.key
+secrets/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Trading Specific
-backtest_results/
-paper_trading_logs/
-live_trading_logs/
-performance_reports/
+# 임시 파일
+*.tmp
+*.temp
+*.bak
 
-# Cache
-.cache/
-.pytest_cache/
-
+# 기존 불필요 폴더 (새 구조로 마이그레이션 후 삭제 예정)
+# backtesting/
+# strategies/
